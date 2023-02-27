@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.telo{
+    background-color: rgb(193, 193, 193);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;    
+    width: 25rem;
+    height: 40rem;
+    border: 3px solid rgb(172, 172, 172);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5), 0 15px 25px rgba(0,0,0,0.35);
+
+}
+.displej{
+    position: relative;        
+    border: inset 5px;
+    padding: 1rem;
+    margin: 50px 5px;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 3rem;
+    background-color: #e7e7e7;
+}
+.tastatura{
+    margin: 1%;
+    border: 2px solid rgb(255, 255, 255);
+    height: 100%;
+    width: 98%-2px;    
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    padding: 5px;
+    gap: 3px;    
+  }
+  
+  button{
+    position: relative;
+    height: 60px;
+    font-size: 2rem;
+    font-family: 'Tilt Neon', cursive;
+    color: #ccc;
+    background: linear-gradient(#555353, #363535, #303030);
+    border: 2px solid #222;
+    border-radius: 6px;
+    box-shadow: inset 0 5px 1px rgba(0,0,0,0.35), 0 5px 5px rgba(0,0,0,0.5), 0 15px 25px rgba(0,0,0,0.35);
+  }
+  button::before{
+    content: '';
+    position: absolute;
+    inset: 5px 3px;
+    border-top: 1px solid #ccc;
+    filter: blur(2px);
+  }
+
+  button:hover{
+    color: rgb(188, 188, 188);
+    background: rgb(72, 73, 72);
+  }
