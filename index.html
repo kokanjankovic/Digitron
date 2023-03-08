@@ -12,38 +12,34 @@
 </head>
 <body>
     <div class="telo">
-        <div class="displej"><strong>12345678901234</strong> </div>
+        <input type="text" id="display" disabled/>
         <div class="tastatura">
             <div class="tastatura-brojevi">
                 <div class="grid-container">
-                    <button id="%" type="button" >%</button>
-                    <button id="CE" type="button" >CE</button>
-                    <button id="C" type="button" >C</button>
-                    <button id="<" type="button" ><</button>
-                    <button id="1/x" type="button" >1/x</button>
-                    <button id="x^2" type="button" >x2</button>
-                    <button id="1^1/2" type="button" >x1/2</button>
-                    <button id="/" type="button" >/</button>
-                    <button id="1" type="button" >1</button>
-                    <button id="2" type="button" >2</button>
-                    <button id="3" type="button" >3</button>
-                    <button id="x" type="button" >x</button>
-                    <button id="4" type="button" >4</button>
-                    <button id="5" type="button" >5</button>
-                    <button id="6" type="button" >6</button>
-                    <button id="-" type="button" >-</button>
-                    <button id="7" type="button" >7</button>
-                    <button id="8" type="button" >8</button>
-                    <button id="9" type="button" >9</button>   
-                    <button id="+" type="button" >+</button>   
-                    <button id="+/-" type="button" >+/-</button>   
-                    <button id="0" type="button" >0</button>   
-                    <button id="," type="button" >,</button>   
-                    <button id="=" type="button" >=</button>   
+                    <button id="%" class="operator" >%</button>
+                    <button id="ac" class="operator" >AC</button>
+                    <button id="de" class="operator" >DE</button>
+                    <button id="/" class="operator" >/</button>
+                    <button id="1" >1</button>
+                    <button id="2" >2</button>
+                    <button id="3" >3</button>
+                    <button id="*" >*</button>
+                    <button id="4" >4</button>
+                    <button id="5" >5</button>
+                    <button id="6"  >6</button>
+                    <button id="-" class="operator">-</button>
+                    <button id="7" >7</button>
+                    <button id="8" >8</button>
+                    <button id="9" >9</button>   
+                    <button id="+" class="operator" >+</button>   
+                    <button id="00" >00</button>   
+                    <button id="0" >0</button>   
+                    <button id="," class="operator" >,</button>   
+                    <button id="=" class="operator" >=</button>   
                 </div>    
             </div>
-            <div class="tastatura-operacije"></div>
         </div>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
